@@ -15,7 +15,7 @@
     A. E. DePrince, M. Saitow, U. Bozkaya, A. Yu. Sokolov
     -----------------------------------------------------------------------
 
-    Process ID:  13515
+    Process ID:  14527
     PSI4DATADIR: /usr/local/psi4/share/psi
 
     Using LocalCommunicator (Number of processes = 1)
@@ -59,7 +59,7 @@ main.exampleFN()
 /Users/Sean/Desktop/QM/PSI4data/ccsd/main/main.so loaded.
 
 *** tstart() called on s172-20-219-h254.paws.uga.edu
-*** at Wed Jun  4 13:55:46 2014
+*** at Wed Jun  4 16:08:08 2014
 
 	There are an even number of electrons - assuming singlet.
 	Specify the multiplicity with the MULTP option in the
@@ -183,14 +183,14 @@ main.exampleFN()
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RHF iter   1:   -73.28585429061468   -7.32859e+01   1.20729e-01 
+   @DF-RHF iter   1:   -73.28585429061467   -7.32859e+01   1.20729e-01 
    @DF-RHF iter   2:   -74.82821959076301   -1.54237e+00   5.08137e-02 DIIS
    @DF-RHF iter   3:   -74.93874865848014   -1.10529e-01   7.31091e-03 DIIS
    @DF-RHF iter   4:   -74.94187671936170   -3.12806e-03   1.73460e-03 DIIS
    @DF-RHF iter   5:   -74.94208021240827   -2.03493e-04   5.25911e-04 DIIS
-   @DF-RHF iter   6:   -74.94210567208039   -2.54597e-05   4.36657e-05 DIIS
-   @DF-RHF iter   7:   -74.94210579993670   -1.27856e-07   2.94677e-07 DIIS
-   @DF-RHF iter   8:   -74.94210579994179   -5.08749e-12   8.42912e-09 DIIS
+   @DF-RHF iter   6:   -74.94210567208036   -2.54597e-05   4.36657e-05 DIIS
+   @DF-RHF iter   7:   -74.94210579993678   -1.27856e-07   2.94677e-07 DIIS
+   @DF-RHF iter   8:   -74.94210579994186   -5.07328e-12   8.42912e-09 DIIS
 
   DF guess converged.
 
@@ -227,11 +227,11 @@ main.exampleFN()
     Memory (MB):               183
     Schwarz Cutoff:          1E-12
 
-   @RHF iter   9:   -74.94207989668598    2.59033e-05   2.99714e-06 DIIS
-   @RHF iter  10:   -74.94207989706328   -3.77298e-10   7.07422e-07 DIIS
-   @RHF iter  11:   -74.94207989707843   -1.51488e-11   1.43735e-07 DIIS
-   @RHF iter  12:   -74.94207989707942   -9.94760e-13   1.80670e-08 DIIS
-   @RHF iter  13:   -74.94207989707944   -1.42109e-14   3.57475e-09 DIIS
+   @RHF iter   9:   -74.94207989668594    2.59033e-05   2.99714e-06 DIIS
+   @RHF iter  10:   -74.94207989706325   -3.77312e-10   7.07422e-07 DIIS
+   @RHF iter  11:   -74.94207989707844   -1.51914e-11   1.43735e-07 DIIS
+   @RHF iter  12:   -74.94207989707941   -9.66338e-13   1.80670e-08 DIIS
+   @RHF iter  13:   -74.94207989707942   -1.42109e-14   3.57475e-09 DIIS
 
   ==> Post-Iterations <==
 
@@ -253,7 +253,7 @@ main.exampleFN()
 
   Energy converged.
 
-  @RHF Final Energy:   -74.94207989707944
+  @RHF Final Energy:   -74.94207989707942
 
    => Energetics <=
 
@@ -275,26 +275,26 @@ Properties computed using the SCF density density matrix
      X:     0.0000      Y:    -0.0000      Z:     1.1273
 
   Electronic Dipole Moment: (a.u.)
-     X:     0.0000      Y:     0.0000      Z:    -0.5238
+     X:    -0.0000      Y:     0.0000      Z:    -0.5238
 
   Dipole Moment: (a.u.)
-     X:     0.0000      Y:     0.0000      Z:     0.6035     Total:     0.6035
+     X:    -0.0000      Y:     0.0000      Z:     0.6035     Total:     0.6035
 
   Dipole Moment: (Debye)
-     X:     0.0000      Y:     0.0000      Z:     1.5340     Total:     1.5340
+     X:    -0.0000      Y:     0.0000      Z:     1.5340     Total:     1.5340
 
 
   Saving occupied orbitals to File 180.
 
-*** tstop() called on s172-20-219-h254.paws.uga.edu at Wed Jun  4 13:55:47 2014
+*** tstop() called on s172-20-219-h254.paws.uga.edu at Wed Jun  4 16:08:08 2014
 Module time:
-	user time   =       0.11 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       0.12 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.11 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       0.12 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
 Reading options from the MAIN block
 Calling plugin main.so.
 	There are 5 doubly occupied orbitals
@@ -359,18 +359,18 @@ Calling plugin main.so.
 
 	================= Timings for UHF Module =================
 
-	Matrix Initialization:  ...            0.020 sec 
-	SCF Iteration:          ...            0.018 sec 
+	Matrix Initialization:  ...            0.019 sec 
+	SCF Iteration:          ...            0.015 sec 
 
-	Total Time:             ...            0.037 sec 
+	Total Time:             ...            0.034 sec 
 
 
 	================= Timings for UMP2 Module =================
 
-	AO->MO 2-eletron integral transformation:  ...            0.029 sec 
+	AO->MO 2-eletron integral transformation:  ...            0.027 sec 
 	UMP2 energy calculation:                   ...            0.000 sec 
 
-	Total Time:                                ...            0.029 sec 
+	Total Time:                                ...            0.027 sec 
 
 
 	================= CCSD Module =================
@@ -387,7 +387,7 @@ Calling plugin main.so.
 	The Total UMP2 Energy:    -74.9912304305584030 a.u.
 
 
-	Wall Time:                               0.071 sec 
+	Wall Time:                               0.067 sec 
 
 
 *** PSI4 exiting successfully. Buy a developer a beer!

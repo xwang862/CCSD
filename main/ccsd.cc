@@ -172,6 +172,33 @@ void CCSD::build_intermediates()
     }
 
     // Form the 4-index intermediates: W_[m][n][i][j]
+    for (int m = 0; m < nsocc_; m++){
+        for (int n = 0; n < nsocc_; n++){
+            for (int i = 0; i < nsocc_; i++){
+                for (int j = 0; j < nsocc_; j++){
+                    double sum11 = 0.0, sum12 = 0.0;
+                    for (int e = nsocc_; e < nso_; e++){
+                        sum11 += T1_[j][e] * (tei_MO_[m][i][n][e] - tei_MO_[m][e][n][i]);
+                        sum12 += T1_[i][e] * (tei_MO_[m][j][n][e] - tei_MO_[m][e][n][j]);
+                    }
+
+                    double sum2 = 0.0;
+                    for (int e = nsocc_; e < nso_; e++){
+                        for (int f = nsocc_; f < nso_; f++){
+                            sum2 += tau_[i][j][e][f] * (tei_MO_[m][e][n][f] - tei_MO_[m][f][n][e]);
+                        }
+                    }
+
+                    //According to Eq (6)
+                    W_[m][n][i][j] = (tei_MO_[m][i][n][j] - tei_MO_[m][j][n][i]) + (1.0 - (sum11 - sum12)) + 0.25 * sum2;
+                }
+            }
+        }
+    }
+
+    // Form the 4-index intermediates: W_[a][b][e][f]
+    for ()
+
 }
 
 double CCSD::K_delta(int p, int q)
