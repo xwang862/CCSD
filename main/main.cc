@@ -84,14 +84,13 @@ PsiReturnType main(Options& options)
     // Compute CCSD energy and return it
     double E_ccsd = ccsd.compute_energy(); 
 
-
-    // Energy Summary
-    double E_tot = E_uhf + E_mp2;
-
+    // Energy Summary 
     fprintf(outfile, "\n\n\t================= Summary =================\n");
     fprintf(outfile, "\n\tThe UHF Energy:           %20.16f a.u.\n", E_uhf);
     fprintf(outfile, "\n\tThe UMP2 Energy:          %20.16f a.u.\n", E_mp2);
-    fprintf(outfile, "\n\tThe Total UMP2 Energy:    %20.16f a.u.\n", E_tot);
+    fprintf(outfile, "\n\tThe Total UMP2 Energy:    %20.16f a.u.\n", E_uhf + E_mp2);
+    fprintf(outfile, "\n\tThe CCSD Energy:          %20.16f a.u.\n", E_ccsd);
+    fprintf(outfile, "\n\tThe Total CCSD Energy:    %20.16f a.u.\n", E_uhf + E_ccsd);
 
     // End the timer
     const std::clock_t wall_time_end = std::clock();

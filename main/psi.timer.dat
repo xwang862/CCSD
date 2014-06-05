@@ -1330,3 +1330,1083 @@ DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0
 DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
 
 ***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 16:39:44 2014
+Timers Off: Wed Jun  4 16:39:45 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.02s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.02u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 16:59:29 2014
+Timers Off: Wed Jun  4 16:59:29 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 18:49:31 2014
+Timers Off: Wed Jun  4 18:49:32 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.02s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.02u       0.00s       0.00w      8 calls
+JK: K1      :       0.02u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.02u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:03:47 2014
+Timers Off: Wed Jun  4 19:03:47 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:05:42 2014
+Timers Off: Wed Jun  4 19:05:42 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.02u       0.00s       0.00w      8 calls
+JK: K1      :       0.02u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:28:47 2014
+Timers Off: Wed Jun  4 19:28:47 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:34:10 2014
+Timers Off: Wed Jun  4 19:34:11 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.02u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.02u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.02u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:39:28 2014
+Timers Off: Wed Jun  4 19:39:28 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:40:10 2014
+Timers Off: Wed Jun  4 19:40:13 2014
+
+Wall Time:        3.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.02u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.02u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Wed Jun  4 19:41:00 2014
+Timers Off: Wed Jun  4 19:41:04 2014
+
+Wall Time:        4.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 09:57:28 2014
+Timers Off: Thu Jun  5 09:57:29 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.02u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 09:59:15 2014
+Timers Off: Thu Jun  5 09:59:15 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 10:37:30 2014
+Timers Off: Thu Jun  5 10:37:31 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.02u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 10:39:56 2014
+Timers Off: Thu Jun  5 10:39:56 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.02s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.02s       0.00w     13 calls
+Form C      :       0.03u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 10:43:28 2014
+Timers Off: Thu Jun  5 10:43:28 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 13:40:06 2014
+Timers Off: Thu Jun  5 13:40:07 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.03u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.02u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 13:43:29 2014
+Timers Off: Thu Jun  5 13:43:29 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.02s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.02s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.02s       0.00w      8 calls
+JK: K1      :       0.00u       0.02s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.02u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.02u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 13:45:52 2014
+Timers Off: Thu Jun  5 13:45:52 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:05:25 2014
+Timers Off: Thu Jun  5 14:05:25 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:09:44 2014
+Timers Off: Thu Jun  5 14:09:45 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:10:53 2014
+Timers Off: Thu Jun  5 14:10:54 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:13:38 2014
+Timers Off: Thu Jun  5 14:13:38 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.03u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:21:06 2014
+Timers Off: Thu Jun  5 14:21:06 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.02s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.02u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.02u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:24:21 2014
+Timers Off: Thu Jun  5 14:24:21 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.02s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:24:39 2014
+Timers Off: Thu Jun  5 14:24:40 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.03u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.02u       0.00s       0.00w      8 calls
+JK: K1      :       0.02u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:27:00 2014
+Timers Off: Thu Jun  5 14:27:00 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.02u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.02u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:28:10 2014
+Timers Off: Thu Jun  5 14:28:11 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.03u       0.00s       1.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.02u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.02u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.02u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.02u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:36:44 2014
+Timers Off: Thu Jun  5 14:36:44 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.00s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:41:12 2014
+Timers Off: Thu Jun  5 14:41:12 2014
+
+Wall Time:        0.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.02s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       0.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************
+
+Host: s172-20-219-h254.paws.uga.edu
+
+Timers On : Thu Jun  5 14:48:59 2014
+Timers Off: Thu Jun  5 14:49:00 2014
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s       0.00w      1 call
+JK: (A|Q)^-1/2:       0.05u       0.00s       0.00w      1 call
+JK: (Q|mn)  :       0.00u       0.00s       0.00w      1 call
+Form H      :       0.00u       0.02s       0.00w      1 call
+Form S/X    :       0.00u       0.00s       0.00w      1 call
+Guess       :       0.00u       0.00s       0.00w      1 call
+Form G      :       0.00u       0.00s       1.00w     13 calls
+JK: D       :       0.00u       0.00s       0.00w     13 calls
+JK: USO2AO  :       0.00u       0.00s       0.00w      8 calls
+JK: JK      :       0.00u       0.00s       0.00w     13 calls
+JK: J       :       0.00u       0.00s       0.00w      8 calls
+JK: J1      :       0.00u       0.00s       0.00w      8 calls
+JK: J2      :       0.00u       0.00s       0.00w      8 calls
+JK: K       :       0.00u       0.00s       0.00w      8 calls
+JK: K1      :       0.00u       0.00s       0.00w      8 calls
+JK: K2      :       0.00u       0.00s       0.00w      8 calls
+JK: AO2USO  :       0.00u       0.00s       0.00w      8 calls
+Form F      :       0.00u       0.00s       0.00w     13 calls
+DIIS        :       0.00u       0.00s       0.00w     13 calls
+DIISManager::add_entry:       0.00u       0.00s       0.00w     13 calls
+Form C      :       0.00u       0.00s       0.00w     13 calls
+Form D      :       0.00u       0.00s       0.00w     13 calls
+DIISManager::extrapolate:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s       0.00w     12 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s       0.00w     12 calls
+
+***********************************************************

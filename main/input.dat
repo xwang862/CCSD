@@ -22,6 +22,7 @@ set {
 set main {
   print 1
   e_convergence 1.0E-6
+  cc_maxiter 4
 }
 
 energy('main')

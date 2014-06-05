@@ -33,6 +33,35 @@ namespace psi{ namespace main{
         }
     }
 
+    void print_matrix2d(double**& matrix, int size1, int size2){
+        if (!size1 || !size2){
+            printf("\n\n\tNULL Matrix\n"); 
+        }
+        else{
+            fprintf(outfile, "\n\t## Matrix size: %3d x %3d\n", size1, size2);
+            for (int block = 0; block <= int(size2 / 5); block++){
+                fprintf(outfile, "\n\t    ");
+                for (int c = 0; c < 5; c++){
+                    if ((block * 5 + c) < size2){
+                        fprintf(outfile, "  %20d", block * 5 + c + 1);
+                    }
+                }
+                fprintf(outfile, "\n\n");
+
+                for (int r = 0; r < size1; r++){
+                    fprintf(outfile, "\t%4d", r+1);
+                    for (int c = 0; c < 5; c++){
+                        if ((block * 5 + c) < size2){
+                            fprintf(outfile, "  %20.10f", matrix[r][block * 5 + c]);
+                        }
+                    }
+                    fprintf(outfile, "\n");
+                }
+                fprintf(outfile, "\n");
+            }
+        }
+    }
+
     void init_matrix4d(double****& matrix, int size1, int size2, int size3, int size4)
     {
         if ( !size1 || !size2 || !size3 || !size4){

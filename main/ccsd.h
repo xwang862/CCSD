@@ -42,14 +42,19 @@ class CCSD{
     double** F_;
     /// 4-index (W) intermediates
     double**** W_;
-
+    /// CCSD energy
+    double E_CCSD_;
 
     /// Transforms core Hamiltonian from ASO to MSO
     void transform_Hcore_AO2MO(SharedMatrix Hcore_AO, SharedMatrix C_MO);
     /// Form Fock matrix in MSO
     void form_Fock_MO();
     /// Build the 2-index (F) and 4-index (W) intermediates as well as effective doubles
-    void build_intermediates();
+    void calculate_intermediates();
+    /// Update cluster amplitudes
+    void update_amplitudes();
+    /// Calculate CC energy using current T1 and T2 amplitudes
+    void calculate_cc_energy();
     /// Kroneckder delta function
     double K_delta(int p, int q);
 };
