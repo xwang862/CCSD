@@ -8,7 +8,6 @@ namespace psi{ namespace main{
 
 CCSD::CCSD(Options &options, int nso_uhf, SharedVector Epsilon, double**** tei_MO, SharedMatrix Hcore_AO, SharedMatrix C_MO)
 {
-    fprintf(outfile, "\n\t================= CCSD Module =================\n");
     // Transfer maximum CC iterations
     maxiter_ = options.get_int("CC_MAXITER");
 
@@ -52,7 +51,13 @@ CCSD::CCSD(Options &options, int nso_uhf, SharedVector Epsilon, double**** tei_M
 
 CCSD::~CCSD()
 {
-
+    free_matrix2d(Fock_, nso_, nso_);
+    free_matrix2d(T1_, nso_, nso_);
+    free_matrix4d(T2_, nso_, nso_, nso_, nso_);
+    free_matrix4d(tau_, nso_, nso_, nso_, nso_);
+    free_matrix4d(tau_tilde_, nso_, nso_, nso_, nso_);
+    free_matrix2d(F_, nso_, nso_);
+    free_matrix4d(W_, nso_, nso_, nso_, nso_);
 }
 
 void CCSD::transform_Hcore_AO2MO(SharedMatrix Hcore_AO, SharedMatrix C_MO)
@@ -125,11 +130,6 @@ void CCSD::calculate_intermediates()
 
             // According to Eq (3)
             F_[a][e] = (1.0 - K_delta(a, e)) * Fock_[a][e] - 0.5 * sum1 + sum2 - 0.5 * sum3;
-
-            //Check for summations
-            //if (a == 10 && e == 10){
-            //    fprintf(outfile, "\n\tpart1 = %20.15f\n\tsum1 = %20.15f\n\tsum2 = %20.15f\n\tsum3 = %20.15f\n", (1.0 - K_delta(a, e)) * Fock_[a][e], sum1, sum2, sum3);
-            //}
         }
     } 
 
@@ -195,7 +195,8 @@ void CCSD::calculate_intermediates()
                     }
 
                     //According to Eq (6)
-                    W_[m][n][i][j] = (tei_MO_[m][i][n][j] - tei_MO_[m][j][n][i]) + (1.0 - (sum11 - sum12)) + 0.25 * sum2;
+                    W_[m][n][i][j] = (tei_MO_[m][i][n][j] - tei_MO_[m][j][n][i]) + (sum11 - sum12) + 0.25 * sum2;
+
                 }
             }
         }
@@ -220,7 +221,7 @@ void CCSD::calculate_intermediates()
                     }
 
                     //According to Eq (7)
-                    W_[a][b][e][f] = (tei_MO_[a][e][b][f] - tei_MO_[a][f][b][e]) - (1.0 - (sum11 - sum12)) + 0.25 * sum2;
+                    W_[a][b][e][f] = (tei_MO_[a][e][b][f] - tei_MO_[a][f][b][e]) - (sum11 - sum12) + 0.25 * sum2;
                 }
             }
         }
@@ -325,7 +326,7 @@ void CCSD::update_amplitudes()
                         sum11 += T2_[i][j][a][e] * (F_[b][e] - 0.5 * sum11_inner);
                         sum12 += T2_[i][j][b][e] * (F_[a][e] - 0.5 * sum12_inner);
                     }
-                    double line1 = (tei_MO_[i][a][j][b] - tei_MO_[i][b][j][a]) + 1.0 - (sum11 - sum12);
+                    double line1 = (tei_MO_[i][a][j][b] - tei_MO_[i][b][j][a]) + (sum11 - sum12);
 
                     //*** Line 2 ***
                     double sum21 = 0.0, sum22 = 0.0;
@@ -338,7 +339,7 @@ void CCSD::update_amplitudes()
                         sum21 += T2_[i][m][a][b] * (F_[m][j] + 0.5 * sum21_inner);
                         sum22 += T2_[j][m][a][b] * (F_[m][i] + 0.5 * sum22_inner);
                     }
-                    double line2 = 0.0 - (1.0 - (sum21 - sum22));
+                    double line2 = 0.0 - (sum21 - sum22);
 
                     // *** Line 3 ***
                     double sum3 = 0.0;
@@ -365,7 +366,7 @@ void CCSD::update_amplitudes()
                             sum54 += T2_[j][m][b][e] * W_[m][a][e][i] - T1_[j][e] * T1_[m][b] * (tei_MO_[m][e][a][i] - tei_MO_[m][i][a][e]); 
                         }
                     }
-                    double line4 = 1 + sum51 - sum52 - sum53 + sum54;
+                    double line4 = sum51 - sum52 - sum53 + sum54;
 
                     // *** Line 5 ***
                     double sum61 = 0.0, sum62 = 0.0;
@@ -378,7 +379,7 @@ void CCSD::update_amplitudes()
                         sum71 += T1_[m][a] * (tei_MO_[m][i][b][j] - tei_MO_[m][j][b][i]);
                         sum72 += T1_[m][b] * (tei_MO_[m][i][a][j] - tei_MO_[m][j][a][i]);
                     }
-                    double line5 = 1 - (sum61 - sum62) - (1 - (sum71 - sum72));
+                    double line5 = (sum61 - sum62) - (sum71 - sum72);
 
                     // According to Eq (2)
                     double denom = Epsilon_->get(0, i) + Epsilon_->get(0, j) - Epsilon_->get(0, a) - Epsilon_->get(0, b);
@@ -455,7 +456,7 @@ double CCSD::compute_energy()
         }
     }
     E_mp2 *= 0.25;    
-    fprintf(outfile, "\n\tCheck for initial-guess cluster amplitudes by mp2 energy: %20.15f\n", E_mp2);
+//    fprintf(outfile, "\n\tCheck for initial-guess cluster amplitudes by mp2 energy: %20.15f\n", E_mp2);
     // End Check
 
     // Calculate the 2-index (F) and 4-index (W) intermediates as well as effective doubles
@@ -484,12 +485,6 @@ double CCSD::compute_energy()
         update_amplitudes();
         calculate_cc_energy();
         E_new = E_CCSD_;
-
-        // Check for amplitudes and intermediates
-        //if (iter < 4){
-        //    print_matrix2d(T1_, nso_, nso_);
-        //    print_matrix2d(F_, nso_, nso_);
-        //}
 
         // Energy convergence
         double dE = E_new - E_old;
