@@ -1,10 +1,16 @@
 __init__.py
 __init__.pyc
+ccsd.cc
+ccsd.d
+ccsd.h
 doc.rst
 input.dat
 main.cc
 main.d
 main.so
+mymatrix.cc
+mymatrix.d
+mymatrix.h
 output.dat
 psi.timer.dat
 pymodule.py
